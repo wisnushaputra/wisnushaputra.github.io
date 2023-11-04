@@ -317,10 +317,11 @@ nav ul li a {
     width: 100%;
     padding: 0.75rem 1.3rem;
     font-family: "Poppin", sans-serif;
-    background: var(--secondaryTextColor);
+    color: black;
+    background: var(--secondaryTextColor); 
     border: 1px solid var(--borderColor);
     border-radius: 3px;
-    resize: none;
+    resize: none; 
 }
 
 .contact-form input::placeholder,
@@ -371,4 +372,27 @@ nav ul li a {
 
 .contact-item-detail {
     margin-bottom: 0.6rem;
+}
+
+/* Footer section */
+footer {
+    padding: 3rem 0;
+    background: var(--secondaryBackgroundColor);
+    text-align: center;
+}
+
+.footer-icons {
+    margin-bottom: 1rem;
+}
+
+.footer-icons a {
+    margin: 0 0.5rem;
+}
+
+.footer-icons svg {
+    fill: #b4babd;
+}
+
+.footer-icons a:hover svg {
+    fill: white;
 }
